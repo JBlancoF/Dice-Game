@@ -1,0 +1,209 @@
+/*
+Orange color: #e67e22
+
+*/
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/JBlancoF/Dice-Game.git
+git push -u origin master
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ----- HEADINGS ----- */
+h1,
+h2,
+h3 {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h2:after {
+}
+
+/* ----- PARAGRAPHS ----- */
+
+.long-copy {
+}
+
+.box p {
+}
+
+
+/* ----- ICONS ----- */
+.icon-big {
+}
+
+.icon-small {
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* ----- LINKS ----- */
+
+a:link,
+a:visited {
+}
+
+a:hover,
+a:active {
+}
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited,
+input[type=submit] {
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+}
+
+.btn-full:hover,
+.btn-full:active {
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+}
+
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+
+
+/* Sticky navi */
+
+
+/* ----------------------------------------------- */
+/* FEATURES */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* MEALS */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* CITIES */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* TESTIMONIALS */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* SIGN UP */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+
+
+
+
+/* ----------------------------------------------- */
+/* Animations */
+/* ----------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
+
+

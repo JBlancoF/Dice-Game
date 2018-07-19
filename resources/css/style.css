@@ -115,6 +115,7 @@ body {
 /* ----- PLAYER BUTTONS----- */
 
 .btn-roll{
+    cursor: pointer;
     text-align: center;
     margin: 2rem auto;
     line-height: 4rem;
@@ -128,9 +129,27 @@ body {
     -moz-border-radius: 3rem;
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
+    transition: background 0.2s, color 0.2s;
+    -webkit-transition: background 0.2s, color 0.2s;
+    -moz-transition: background 0.2s, color 0.2s;
+    -ms-transition: background 0.2s, color 0.2s;
+    -o-transition: background 0.2s, color 0.2s;
+}
+.btn-roll:hover{
+    background: rgb(213, 213, 213);
+    color: rgb(26, 26, 26);
+    font-weight: 400;
+}
+.btn-roll:active{
+    position:relative;
+    top:1px;
+    background: rgb(177, 177, 177);
+    border: 4px rgb(177, 177, 177) solid;
+    line-height: 3.7rem;
 }
 
 .btn-hold{
+    cursor: pointer;
     text-align: center;
     margin: 0 auto;
     line-height: 4.5rem;
@@ -145,7 +164,21 @@ body {
     -moz-border-radius: 3rem;
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
 }
+.btn-hold:hover{
+    background: rgb(186, 186, 186);
+}
+.btn-hold:active{
+    position:relative;
+    top:1px;
+    background: rgb(148, 148, 148);
+}
+
 
 /* ----------------------------------------------- */
 /* GAME MIDDLE PANNEL */
@@ -183,9 +216,10 @@ body {
 }
 
 .btn-start{
+    cursor: pointer;
     text-align: center;
     margin: 0 auto;
-    line-height: 10rem;
+    line-height: 9.5rem;
     height: 10rem;
     width: 10rem;
     font-size: 1.7rem;
@@ -197,12 +231,29 @@ body {
     -moz-border-radius: 13rem;
     -ms-border-radius: 13rem;
     -o-border-radius: 13rem;
+    transition: background 0.2s, border 0.2s;
+    -webkit-transition: background 0.2s, border 0.2s;
+    -moz-transition: background 0.2s, border 0.2s;
+    -ms-transition: background 0.2s, border 0.2s;
+    -o-transition: background 0.2s, border 0.2s;
 }
+.btn-start:hover{
+    background: rgb(147, 61, 61);
+    color: rgb(213, 213, 213);
+}
+.btn-start:active{
+    position:relative;
+    top:1px;
+    background-color: rgb(143, 46, 46);
+    border: 4px rgb(143, 46, 46) solid;
+    color: rgb(255, 255, 255);
+}
+
 
 .score-input{
     display: block;
     text-align: center;
-    margin: 4rem auto;
+    margin: 2rem auto;
     line-height: 5rem;
     height: 5.5rem;
     width: 16rem;
@@ -215,4 +266,15 @@ body {
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
+    transition: background 2s,;
+    -webkit-transition: background 2s,;
+    -moz-transition: background 2s,;
+    -ms-transition: background 2s,;
+    -o-transition: background 2s,;
 }
+
+.score-input:focus{
+    outline:0;
+    border: 2px rgb(213, 213, 213) solid;
+}
+

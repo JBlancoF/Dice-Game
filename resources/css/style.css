@@ -10,7 +10,7 @@
 }
 
 html{
-    font-size: 10px;
+    font-size: 10.5px;
 }
 
 body {
@@ -44,6 +44,7 @@ body {
 
 .box {
     padding: 1%;
+    /* border: 2px black solid; */
 }
 
 .main-container{
@@ -56,7 +57,7 @@ body {
 /* PLAYER BOX */
 /* ----------------------------------------------- */
 
-.icon{
+.icon-turn{
     text-align: center;
     font-size: 10rem;
     margin-top: 5rem;
@@ -68,7 +69,7 @@ body {
 .counter-box{
     border: 3px rgb(213, 213, 213) solid;
     border-radius: 3rem;
-    margin: 2rem auto 8rem auto;
+    margin: 2rem auto 6rem auto;
     height: 40rem;
     width: 40rem;
     -webkit-border-radius: 3rem;
@@ -136,6 +137,7 @@ body {
     height: 4.5rem;
     width: 13rem;
     font-size: 1.5rem;
+    font-weight: 400;
     background-color:  rgb(213, 213, 213);
     color: rgb(26, 26, 26);
     border-radius: 3rem;
@@ -143,4 +145,74 @@ body {
     -moz-border-radius: 3rem;
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
+}
+
+/* ----------------------------------------------- */
+/* GAME MIDDLE PANNEL */
+/* ----------------------------------------------- */
+
+.icon-pannel{
+    text-align: center;
+    font-size: 8rem;
+    height: 8rem;
+    /* margin-top: 1rem; */
+}
+
+.counter-back{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 12rem;
+}
+
+.dice{
+    margin: 0 3rem 14rem 3rem;
+}
+
+.dice-1 ,.dice-2{
+    display: inline-block;
+    width: 12rem;
+    height: 12rem;
+    border:7px white solid;
+    margin: 3rem 2rem;
+    border-radius:2rem;
+    -webkit-border-radius:2rem;
+    -moz-border-radius:2rem;
+    -ms-border-radius:2rem;
+    -o-border-radius:2rem;
+}
+
+.btn-start{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 10rem;
+    height: 10rem;
+    width: 10rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgb(147, 61, 61);
+    border: 4px rgb(147, 61, 61) solid;
+    border-radius: 13rem;
+    -webkit-border-radius: 13rem;
+    -moz-border-radius: 13rem;
+    -ms-border-radius: 13rem;
+    -o-border-radius: 13rem;
+}
+
+.score-input{
+    display: block;
+    text-align: center;
+    margin: 4rem auto;
+    line-height: 5rem;
+    height: 5.5rem;
+    width: 16rem;
+    font-size: 2rem;
+    color: rgb(213, 213, 213);
+    border: 1px rgb(213, 213, 213) solid;
+    border-radius: 2rem;
+    background: none;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }

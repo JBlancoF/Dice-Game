@@ -14,6 +14,7 @@ html{
 }
 
 body {
+    min-width: 160rem;
     background-image: linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4)), url(./img/background.gif);
     background-position: center;
     font-family: Lato;
@@ -95,7 +96,7 @@ body {
 
 }
 
-.secundary-counter{
+.secondary-counter{
     text-align: center;
     margin: 3rem auto;
     line-height: 8rem;
@@ -183,6 +184,9 @@ body {
 /* ----------------------------------------------- */
 /* GAME MIDDLE PANNEL */
 /* ----------------------------------------------- */
+.span-2-of-3{
+    position: relative;
+}
 
 .icon-pannel{
     text-align: center;
@@ -202,7 +206,12 @@ body {
     margin: 0 3rem 14rem 3rem;
 }
 
-.dice-1 ,.dice-2{
+.diceSvg{
+    display: block;
+    margin: 0 auto;
+    width: 19rem;
+}
+/* .dice-1 ,.dice-2{
     display: inline-block;
     width: 12rem;
     height: 12rem;
@@ -213,7 +222,7 @@ body {
     -moz-border-radius:2rem;
     -ms-border-radius:2rem;
     -o-border-radius:2rem;
-}
+} */
 
 .btn-start{
     cursor: pointer;
@@ -249,6 +258,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.btns-main{
+    position: absolute;
+    top: 60rem;
+    left: 14rem;
+}
 
 .score-input{
     display: block;

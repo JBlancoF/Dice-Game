@@ -20,13 +20,14 @@
             </nav>
             
         </header>
+        
         <div class="main-container">
             <section class="col span-1-of-3 box">
                 <div class="icon-turn"><ion-icon name="bulb"></ion-icon></i></div>
                 <div class="counter-box">
                     <div class="player-name">Player 1</div>
-                    <div class="main-counter">00</div>
-                    <div class="secundary-counter">00</div>
+                    <div class="main-counter" id="score-0">00</div>
+                    <div class="secondary-counter" id="current-0">00</div>
                 </div>
                 <div class="btn-roll">ROLL DICES</div>
                 <div class="btn-hold">HOLD</div>
@@ -37,19 +38,22 @@
                     <div class="icon-pannel"><ion-icon name="alarm"></ion-icon></div>
                     <div class="counter-back">00:00</div>
                     <div class="dice">
-                        <div class="dice-1"></div>
-                        <div class="dice-2"></div>
+                        <img class="diceSvg" src="/resources/css/img/dice_1.svg" alt="">
+                        <!-- <div class="dice-1"></div> -->
+                        <!-- <div class="dice-2"></div> -->
                     </div>
-                    <div class="btn-start">START</div>
-                    <input  class="score-input" placeholder="Final score"></input>
+                    <div class="btns-main">
+                        <div class="btn-start">START</div>
+                        <input  class="score-input" placeholder="Final score"></input>
+                    </div>
             </section>
             
             <section class="col span-1-of-3 box">
                 <div class="icon-turn"><ion-icon name="bulb"></ion-icon></i></div>
                 <div class="counter-box">
                     <div class="player-name">Player 2</div>
-                    <div class="main-counter">00</div>
-                    <div class="secundary-counter">00</div>
+                    <div class="main-counter" id="score-1">00</div>
+                    <div class="secondary-counter" id="current-1">00</div>
                 </div>
                 <div class="btn-roll">ROLL DICES</div>
                 <div class="btn-hold">HOLD</div>

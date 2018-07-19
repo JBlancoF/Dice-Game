@@ -52,22 +52,32 @@ body {
     padding: 0.2rem ;
 }
 
+.active{
+    background: rgba(255, 255, 255, 0.098);
+}
+
+.activeI{
+    opacity: 1 !important;
+}
 
 
 /* ----------------------------------------------- */
 /* PLAYER BOX */
 /* ----------------------------------------------- */
 
-.icon-turn{
+.icon-turn-0,
+.icon-turn-1{
     text-align: center;
     font-size: 10rem;
     margin-top: 5rem;
+    opacity: 0.2;
 
 }
 
 /* ----- COUNTER BOX----- */
 
-.counter-box{
+.counter-box-0,
+.counter-box-1{
     border: 3px rgb(213, 213, 213) solid;
     border-radius: 3rem;
     margin: 2rem auto 6rem auto;
@@ -192,7 +202,6 @@ body {
     text-align: center;
     font-size: 8rem;
     height: 8rem;
-    /* margin-top: 1rem; */
 }
 
 .counter-back{
@@ -211,18 +220,6 @@ body {
     margin: 0 auto;
     width: 19rem;
 }
-/* .dice-1 ,.dice-2{
-    display: inline-block;
-    width: 12rem;
-    height: 12rem;
-    border:7px white solid;
-    margin: 3rem 2rem;
-    border-radius:2rem;
-    -webkit-border-radius:2rem;
-    -moz-border-radius:2rem;
-    -ms-border-radius:2rem;
-    -o-border-radius:2rem;
-} */
 
 .btn-start{
     cursor: pointer;

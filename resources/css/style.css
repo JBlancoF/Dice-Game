@@ -10,17 +10,17 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 10px;
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(./img/background.gif);
+    background-image: linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4)), url(./img/background.gif);
     background-position: center;
     font-family: Lato;
     font-weight: 300;
     position: relative;
     height: 100vh;
-    color: #555;
+    color: rgb(213, 213, 213);
 }
 
 .clearfix {zoom: 1;}
@@ -33,7 +33,7 @@ body {
 }
 
 /* ----------------------------------------------- */
-/* REUSABLE COMPONENTS */
+/* GENERAL COMPONENTS */
 /* ----------------------------------------------- */
 
 
@@ -42,12 +42,105 @@ body {
     margin: 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
-
 .box {
     padding: 1%;
 }
 
-/* ----- HEADINGS ----- */
+.main-container{
+    padding: 0.2rem ;
+}
+
+
+
+/* ----------------------------------------------- */
+/* PLAYER BOX */
+/* ----------------------------------------------- */
+
+.icon{
+    text-align: center;
+    font-size: 10rem;
+    margin-top: 5rem;
+
+}
+
+/* ----- COUNTER BOX----- */
+
+.counter-box{
+    border: 3px rgb(213, 213, 213) solid;
+    border-radius: 3rem;
+    margin: 2rem auto 8rem auto;
+    height: 40rem;
+    width: 40rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+
+.player-name{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    padding:2rem 0;
+
+}
+
+.main-counter{
+    text-align: center;
+    padding:1rem 0;
+    font-size: 11rem;
+    font-weight: 400;
+
+}
+
+.secundary-counter{
+    text-align: center;
+    margin: 3rem auto;
+    line-height: 8rem;
+    height: 8rem;
+    width: 12rem;
+    background-color: #2B3B71;
+    color: rgb(213, 213, 213);
+    font-size: 4rem;
+    font-weight: 300;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+/* ----- PLAYER BUTTONS----- */
+
+.btn-roll{
+    text-align: center;
+    margin: 2rem auto;
+    line-height: 4rem;
+    height: 4.5rem;
+    width: 16rem;
+    font-size: 1.5rem;
+    color: rgb(213, 213, 213);
+    border: 2px rgb(213, 213, 213) solid;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+.btn-hold{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 4.5rem;
+    height: 4.5rem;
+    width: 13rem;
+    font-size: 1.5rem;
+    background-color:  rgb(213, 213, 213);
+    color: rgb(26, 26, 26);
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}

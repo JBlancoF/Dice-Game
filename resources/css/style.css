@@ -89,8 +89,8 @@ body {
     -o-border-radius: 3rem;
 }
 
-
-.player-name{
+.player-name-0,
+.player-name-1{
     text-align: center;
     font-size: 4rem;
     font-weight: 400;
@@ -124,8 +124,8 @@ body {
 }
 
 /* ----- PLAYER BUTTONS----- */
-
-.btn-roll{
+.btn-roll-0,
+.btn-roll-1{
     cursor: pointer;
     text-align: center;
     margin: 2rem auto;
@@ -146,20 +146,22 @@ body {
     -ms-transition: background 0.2s, color 0.2s;
     -o-transition: background 0.2s, color 0.2s;
 }
-.btn-roll:hover{
+.btn-roll-0:hover,
+.btn-roll-1:hover{
     background: rgb(213, 213, 213);
     color: rgb(26, 26, 26);
     font-weight: 400;
 }
-.btn-roll:active{
+.btn-roll-0:active,
+.btn-roll-1:active{
     position:relative;
     top:1px;
     background: rgb(177, 177, 177);
     border: 4px rgb(177, 177, 177) solid;
     line-height: 3.7rem;
 }
-
-.btn-hold{
+.btn-hold-0,
+.btn-hold-1{
     cursor: pointer;
     text-align: center;
     margin: 0 auto;
@@ -181,10 +183,12 @@ body {
     -ms-transition: background 0.3s;
     -o-transition: background 0.3s;
 }
-.btn-hold:hover{
+.btn-hold-0:hoven,
+.btn-hold-1:hover{
     background: rgb(186, 186, 186);
 }
-.btn-hold:active{
+.btn-hold-0:active,
+.btn-hold-1:active{
     position:relative;
     top:1px;
     background: rgb(148, 148, 148);

@@ -212,17 +212,14 @@ body {
     text-align: center;
     font-size: 5rem;
     font-weight: 400;
-    margin-bottom: 12rem;
+    margin-bottom: 15rem;
 }
 
-.dice{
-    margin: 0 3rem 14rem 3rem;
-}
 
 .diceSvg{
-    display: block;
+    display: inline-block !important;
     margin: 0 auto;
-    width: 19rem;
+    width: 19.6rem;
 }
 
 .btn-start{
